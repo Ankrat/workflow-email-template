@@ -5,35 +5,42 @@ $imageSocial__pad               : 20px;
 $nestedContainerCell__pad       : 20px;
 
 // Generic
-$bodyTable__bgc                 : #F5F5F5;
+$bodyTable__bgc                 : #FFF;
 $bodyCell__pad                  : 40px;
 $bodyCell__pad--small           : 10px;
 
 $emailBody__bgc                 : #FFFFFF;
-$emailBody__border              : 1px solid #DDDDDD;
+$emailBody__border              : 1px solid #FFF;
 $emailBody__border-radius       : 4px;
 
 $header__fz                     : 20px;
-$header__color                  : #202020;
+$header__color                  : #444444;
 $header__ff                     : Helvetica;
 $header__lh                     : 125%;
-$header__align                  : left;
+$header__align                  : center;
 
-$textContent__color             : #404040;
+$header__fz--h1                 : 32px;
+$header__lh--h1                 : 150%;
+
+$textContent__color             : #555555;
+$textContent__color-light       : #777777;
 $textContent__ff                : Helvetica;
 $textContent__fz                : 14px;
 $textContent--info__fz          : 12px;
 $textContent__lh                : 125%;
+$textContent--info__lh          : 100%;
 $textContent__align             : left;
 $textContent__pad               : 20px;
 $textContent__pad--small        : 10px;
 
-$link__color                    : #2C9AB7;
+$link__color                    : #002d62;
+$link__color--hover             : #506794;
 
 $nestedContainer__bgc           : #E5E5E5;
-$nestedContainer__border        : 1px solid #CCCCCC;
+$nestedContainer__border        : 1px solid #E5E5E5;
 
-$emailbutton__bgc               : #2C9AB7;
+$emailbutton__bgc               : #002d62;
+$emailbutton__bgc--hover        : #506794;
 $emailbutton__border-radius     : 4px;
 
 $buttonContent__color           : #FFFFFF;
@@ -52,3 +59,20 @@ $socialIconLink__pad            : 15px;
 
 $highlight__bgc                 : #E5E5E5;
 $highlight__pad                 : 15px;
+
+// Basket
+$productTable__pad              : 15px;
+$basketHeader__color            : #555555;
+$productPrice__fz--small        : 12px;
+$productPrice__fz               : 18px;
+$productPrice__color            : #555;
+$productPrice__color--saved     : #d31145;
+/*
+$basketContent__:;
+$productTable__:;
+$productItem__:;
+$productThumb__:;
+$productQty__:;
+$productPrice__:;
+$productSubTotal__:;
+*/

@@ -1,3 +1,6 @@
+.flexibleContainer{
+    float: left;
+}
 .flexibleContainerCell {
     padding-top: $flexibleContainerCell__pad;
     padding-right: $flexibleContainerCell__pad;
@@ -19,8 +22,8 @@
 
 .nestedContainerCell {
     padding-top: $nestedContainerCell__pad;
-    padding-right: $nestedContainerCell__pad;
-    padding-left: $nestedContainerCell__pad;
+    // padding-right: $nestedContainerCell__pad;
+    // padding-left: $nestedContainerCell__pad;
 }
 
 .highlight{

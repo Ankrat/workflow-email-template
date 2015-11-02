@@ -1,6 +1,9 @@
 body,
 #bodyTable {
     background-color: $bodyTable__bgc;
+    font-family: $textContent__ff;
+    font-size: $textContent__fz;
+    color: $textContent__color;
 }
 
 #bodyCell {
@@ -24,6 +27,43 @@ h4, h5, h6 {
     text-align: $header__align;
 }
 
+h1{
+    font-weight: normal;
+    font-size: $header__fz--h1;
+    line-height: $header__lh--h1;
+}
+
+th{
+    font-family: $header__ff;
+}
+
+img{
+    max-width: 100%;
+}
+a{
+    color: $link__color;
+    &:hover,
+    &:visited{
+        color: $link__color--hover;
+    }
+}
+
+.headContent{
+    color: $header__color;
+    font-family: $header__ff;
+    font-size: $header__fz;
+    line-height: $header__lh;
+    text-align: $header__align;
+    padding-bottom: $bodyCell__pad;
+}
+.headContent p{
+    color: $textContent__color;
+    font-family: $textContent__ff;
+    font-size: $textContent__fz;
+    line-height: $textContent__lh;
+    margin: 0;
+}
+
 .textContent,
 .textContentLast {
     color: $textContent__color;
@@ -33,8 +73,11 @@ h4, h5, h6 {
     text-align: $textContent__align;
     padding-bottom: $textContent__pad;
 }
-.textContent--right{
+.textContent--button{
     text-align: right;
+    padding-top: $buttonContent__pad;
+    padding-bottom: 0;
+    padding-right: $buttonContent__pad;
 }
 .textContent--info{
     font-size: $textContent--info__fz;
@@ -61,15 +104,13 @@ h4, h5, h6 {
     text-decoration: underline;
 }
 
-.nestedContainer {
-    background-color: $nestedContainer__bgc;
-    border: $nestedContainer__border;
-}
-
 .emailButton {
     background-color: $emailbutton__bgc;
     border-collapse: separate;
     border-radius: $emailbutton__border-radius;
+}
+.emailButton:hover {
+    background-color: $emailbutton__bgc--hover;
 }
 
 .buttonContent {
@@ -78,13 +119,13 @@ h4, h5, h6 {
     font-size: $buttonContent__fz;
     font-weight: $buttonContent__fw;
     line-height: $buttonContent__lh;
-    padding: $buttonContent__pad $buttonContent__pad * 3;
     text-align: $buttonContent__align;
 }
 
 .buttonContent a {
     color: $buttonContent-link__color;
     display: block;
+    padding: $buttonContent__pad $buttonContent__pad * 3;
     text-decoration: none;
 }
 
@@ -94,4 +135,15 @@ h4, h5, h6 {
 }
 .socialIconLink{
     padding-right: $socialIconLink__pad;
+}
+
+.textInfo{
+    color: $textContent__color-light;
+    font-family: $textContent__ff;
+    font-size: $textContent--info__fz;
+    line-height: $textContent--info__lh;
+}
+.line{
+    display: block;
+    line-height: 130%;
 }

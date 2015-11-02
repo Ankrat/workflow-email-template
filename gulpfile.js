@@ -37,7 +37,7 @@ gulp.task('data', function() {
 
 // HTML
 gulp.task('html', function() {
-    nunjucksRender.nunjucks.configure(['sources/templates/', 'sources/partials/']);
+    nunjucksRender.nunjucks.configure(['sources/templates', 'sources/partials']);
 
     // Gets .html and .nunjucks files in pages
     return gulp.src('sources/emails/**/*.html')
@@ -70,7 +70,7 @@ gulp.task('inline', function() {
 
 // Images
 gulp.task('images', function() {
-    return gulp.src(['sources/images/*.{jpg,png}'])
+    return gulp.src(['sources/images/**/*.{jpg,png}'])
         .pipe(cache(imagemin({
             optimizationLevel: 3,
             progressive: true,

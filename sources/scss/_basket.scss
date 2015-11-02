@@ -1,0 +1,50 @@
+#basketHeader{
+    border-bottom: $nestedContainer__border;
+    th{
+        padding-bottom: $productTable__pad;
+        color: $basketHeader__color;
+    }
+}
+#basketContent{
+    padding-top: $productTable__pad;
+    padding-bottom: $productTable__pad / 2;
+    border-bottom: $nestedContainer__border;
+}
+
+
+#productTable{
+    padding: $productTable__pad;
+}
+.productItem{
+    padding-bottom: $productTable__pad / 2;
+}
+.productItem .nestedContainerCell {
+    padding-top: 0;
+}
+.productThumb{}
+
+.author{
+    color: $textContent__color-light;
+}
+.productQty,
+.productPrice,
+.productSubTotal{
+    text-align: center;
+    vertical-align: top;
+}
+.productPrice{}
+    .price{
+        font-size: $productPrice__fz--small;
+        color: $productPrice__color;
+    }
+    .price--full{
+        text-decoration: line-through;
+    }
+    .price--discounted{
+        font-size: $productPrice__fz;
+    }
+    .price--saved{
+        color: $productPrice__color--saved;
+    }
+
+.productSubTotal{}

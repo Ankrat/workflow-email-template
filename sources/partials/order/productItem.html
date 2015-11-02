@@ -1,0 +1,42 @@
+<table class="productTable">
+    <tr>
+        <td class="productItem"  width="270">
+            <table class="nestedContainer">
+                <tr>
+                    <td class="nestedContainerCell">
+                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" width="30%">
+                            <tr>
+                                <td>
+                                    <img src="/images/products/{{item.image}}" alt="" width="70" height="105" class="productThumb">
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" width="70%">
+                            <tr>
+                                <td valign="top">
+                                    <p>
+                                        <span class="line"><a href="#">{{item.title}}</a></span>
+                                        <span class="line author">{{item.author}}</span>
+                                        <span class="line">{{item.details.formats[0]}}</span>
+                                    </p>
+                                    <p class="textInfo">Dispach info</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="productQty"  width="80">1</td>
+        <td class="productPrice"  width="100">
+            <p>
+                <span class="line price price--full">&pound;&thinsp;{{item.fullPrice}}</span>
+                <span class="line price price--discounted">&pound;&thinsp;{{item.discountedPrice}}</span>
+                <span class="line price price--saved">&pound;&thinsp;{{item.saved}}</span>
+            </p>
+        </td>
+        <td class="productSubTotal" width="100">
+            <span class="line price price--discounted">&pound;&thinsp;{{item.discountedPrice}}</span>
+        </td>
+    </tr>
+</table>

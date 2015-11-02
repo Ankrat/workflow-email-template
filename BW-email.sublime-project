@@ -4,5 +4,9 @@
 		{
 			"path": "."
 		}
-	]
+	],
+    "syntax_override": {
+        "\\.html$": ["Jinja2", "Syntaxes", "HTML (Jinja2)"]
+    }
+
 }

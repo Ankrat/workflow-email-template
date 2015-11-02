@@ -1,0 +1,36 @@
+<!-- CONTENT TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td valign="top" class="">
+
+            <table>
+                <tr>
+                    <td>
+                        <table id="basketHeader">
+                            <tr valign="top" align="left">
+                                <th width="270">Item</th>
+                                <th width="80" class="productQty">Quantity</th>
+                                <th width="100" class="productPrice">Price</th>
+                                <th width="100" class="productSubTotal">Sub-total</th>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="basketContent">
+                        {% for item in order.items %}
+
+                        {% include "./productItem.html" %}
+
+                        {% endfor %}
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+
+        </td>
+    </tr>
+</table>

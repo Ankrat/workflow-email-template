@@ -52,4 +52,16 @@
         padding-right: $bodyCell__pad--small !important;
         padding-left: $bodyCell__pad--small !important;
     }
+
+
+    .textContent--button,
+    td[class="textContent--button"]{
+        text-align: center !important;
+        padding-bottom: $buttonContent__pad;
+    }
+    .flexibleContainer,
+    table[class="flexibleContainer"]{
+        float: initial !important;
+        width: 100% !important;
+    }
 }
