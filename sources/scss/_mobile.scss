@@ -1,0 +1,55 @@
+@media only screen and (max-width: 480px) {
+    /*////// CLIENT-SPECIFIC STYLES //////*/
+    body {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+    /* Force iOS Mail to render the email at full width. */
+    /*////// FRAMEWORK STYLES //////*/
+    /*
+        CSS selectors are written in attribute
+        selector format to prevent Yahoo Mail
+        from rendering media query styles on
+        desktop.
+    */
+    table[id="emailBody"],
+    table[class="flexibleContainer"] {
+        width: 100% !important;
+    }
+    /*
+        The following style rule makes any
+        image classed with 'flexibleImage'
+        fluid when the query activates.
+        Make sure you add an inline max-width
+        to those images to prevent them
+        from blowing out.
+    */
+    img[class="flexibleImage"] {
+        height: auto !important;
+        width: 100% !important;
+    }
+    /*
+        Make buttons in the email span the
+        full width of their container, allowing
+        for left- or right-handed ease of use.
+    */
+    table[class="emailButton"] {
+        width: 100% !important;
+    }
+    td[class="buttonContent"] {
+        padding: 0 !important;
+    }
+    td[class="buttonContent"] a {
+        padding: $buttonContent-link__pad--small !important;
+    }
+    td[class="textContentLast"],
+    td[class="imageContentLast"] {
+        padding-top: $textContent__pad--small !important;
+    }
+    /*////// GENERAL STYLES //////*/
+    td[id="bodyCell"] {
+        padding-top: $bodyCell__pad--small !important;
+        padding-right: $bodyCell__pad--small !important;
+        padding-left: $bodyCell__pad--small !important;
+    }
+}

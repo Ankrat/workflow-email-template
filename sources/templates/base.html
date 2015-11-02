@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width"/>
+        <title>{{title}}</title>
+
+        <link inline href="style.css" rel="stylesheet" type="text/css">
+
+        <!--[if mso 12]>
+            <style type="text/css">
+                .flexibleContainer{display:block !important; width:100% !important;}
+            </style>
+        <![endif]-->
+        <!--[if mso 14]>
+            <style type="text/css">
+                .flexibleContainer{display:block !important; width:100% !important;}
+            </style>
+        <![endif]-->
+
+    </head>
+    <body>
+        <center>
+            <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell">
+                        <!-- EMAIL CONTAINER // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailBody">
+
+
+                            <!-- MODULE ROW Preheader// -->
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- CENTERING TABLE // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+
+                                                {% block preheader %} {% endblock %}
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // CENTERING TABLE -->
+                                </td>
+                            </tr>
+                            <!-- // MODULE ROW Header-->
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- CENTERING TABLE // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+
+                                                {% block header %} {% endblock %}
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // CENTERING TABLE -->
+                                </td>
+                            </tr>
+                            <!-- MODULE ROW Content// -->
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- CENTERING TABLE // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <!-- FLEXIBLE CONTAINER // -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                    <tr>
+                                                        <td align="center" valign="top" width="600" class="flexibleContainerCell">
+
+                                                            {% block content %} {% endblock %}
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // FLEXIBLE CONTAINER -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // CENTERING TABLE -->
+                                </td>
+                            </tr>
+                            <!-- MODULE ROW Footer// -->
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- CENTERING TABLE // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <!-- FLEXIBLE CONTAINER // -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                    <tr>
+                                                        <td align="center" valign="top" width="600" class="flexibleContainerCell">
+
+                                                            {% block footer %}{% endblock %}
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // FLEXIBLE CONTAINER -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // CENTERING TABLE -->
+                                </td>
+                            </tr>
+                            <!-- // MODULE ROW-->
+
+                        </table>
+                        <!-- // EMAIL CONTAINER -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

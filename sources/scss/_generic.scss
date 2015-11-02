@@ -1,0 +1,97 @@
+body,
+#bodyTable {
+    background-color: $bodyTable__bgc;
+}
+
+#bodyCell {
+    padding-top: $bodyCell__pad;
+    padding-bottom: $bodyCell__pad;
+}
+
+#emailBody {
+    background-color: $emailBody__bgc;
+    border: $emailBody__border;
+    border-collapse: separate;
+    border-radius: $emailBody__border-radius;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: $header__color;
+    font-family: $header__ff;
+    font-size: $header__fz;
+    line-height: $header__lh;
+    text-align: $header__align;
+}
+
+.textContent,
+.textContentLast {
+    color: $textContent__color;
+    font-family: $textContent__ff;
+    font-size: $textContent__fz;
+    line-height: $textContent__lh;
+    text-align: $textContent__align;
+    padding-bottom: $textContent__pad;
+}
+.textContent--right{
+    text-align: right;
+}
+.textContent--info{
+    font-size: $textContent--info__fz;
+    text-align: center;
+}
+
+.imageSocial a,
+.imageContent a {
+    text-decoration: none;
+}
+
+.preHeader {
+    width: 50%;
+    font-size: 11px;
+    vertical-align: top;
+}
+.preHeaderLast{
+    text-align: right;
+}
+
+.textContent a,
+.textContentLast a {
+    color: $link__color;
+    text-decoration: underline;
+}
+
+.nestedContainer {
+    background-color: $nestedContainer__bgc;
+    border: $nestedContainer__border;
+}
+
+.emailButton {
+    background-color: $emailbutton__bgc;
+    border-collapse: separate;
+    border-radius: $emailbutton__border-radius;
+}
+
+.buttonContent {
+    color: $buttonContent__color;
+    font-family: $buttonContent__ff;
+    font-size: $buttonContent__fz;
+    font-weight: $buttonContent__fw;
+    line-height: $buttonContent__lh;
+    padding: $buttonContent__pad $buttonContent__pad * 3;
+    text-align: $buttonContent__align;
+}
+
+.buttonContent a {
+    color: $buttonContent-link__color;
+    display: block;
+    text-decoration: none;
+}
+
+.imageSocial{
+    padding-top: $imageSocial__pad;
+    padding-bottom: $imageSocial__pad;
+}
+.socialIconLink{
+    padding-right: $socialIconLink__pad;
+}

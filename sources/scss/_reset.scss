@@ -1,0 +1,33 @@
+body,
+#bodyTable,
+#bodyCell {
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img,
+a img {
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 1em 0;
+}

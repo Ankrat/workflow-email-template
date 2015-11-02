@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+    {% set title = "Email - starter" %}
+
+{% block preheader %}
+    {% set link = "#" %}
+    {% include "../partials/preheader.html" %}
+{% endblock %}
+
+{% block header %}
+
+    {% include "../partials/logo.html" %}
+
+    {% include "../partials/doodle.html" %}
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+
+    {% include "../partials/contact-us.html" %}
+
+    {% include "../partials/social.html" %}
+
+    {% include "../partials/legal.html" %}
+
+    {% include "../partials/note.html" %}
+
+{% endblock %}
