@@ -1,0 +1,39 @@
+<!-- CONTENT TABLE // -->
+{% set firstClass = "" %}
+{% set full = false %}
+ {% if headTitle != "Delivery" %}
+    {% set firstClass = "last-table" %}
+    {% set full = true %}
+ {% endif %}
+
+<table border="0" cellpadding="0" cellspacing="0" width="50%" class="flexibleContainer" >
+    <tr>
+        <td class="bottomShim {{firstClass}}">
+            <table cellpadding="10" cellspacing="0" width={{ "100%" if full else "90%" }}>
+                <tr>
+                    <th valign="middle" align="left">
+                        {{headTitle}} address
+                    </th>
+                </tr>
+                <tr class="bordered--top">
+                    <td valign="middle" align="left">
+                        {% if headTitle == "Delivery" %}
+                            {% set thisAddress = address.delivery %}
+                        {% else %}
+                            {% set thisAddress = address.billing %}
+                        {% endif %}
+
+                        <p>
+                            <span class="line">{{thisAddress.name}}</span>
+                            <span class="line">{{thisAddress.line1}}</span>
+                            <span class="line">{{thisAddress.line2}}</span>
+                            <span class="line">{{thisAddress.city}}</span>
+                            <span class="line">{{thisAddress.zip}}</span>
+                            <span class="line">{{thisAddress.country}}</span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

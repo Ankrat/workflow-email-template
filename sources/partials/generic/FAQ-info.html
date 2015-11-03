@@ -1,0 +1,23 @@
+<!-- CONTENT TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="flexibleContainer" >
+    <tr>
+        <td class="bottomShim">
+            <table cellpadding="10" cellspacing="0" width="100%">
+                <tr>
+                    <th valign="middle" align="left">
+                        {{faq.title}}
+                    </th>
+                </tr>
+                <tr class="bordered--top">
+                    <td valign="middle" align="left">
+
+                    {% for content in faq.content %}
+                        <p class="textContent">{{content}}</p>
+                    {% endfor %}
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,22 @@
+{#
+    URL breakthrough
+    Find: {{ClientLocation}}, {{ShopLoacation}}
+    Replace by real coordinates
+    Upload markers Images and update UDL
+    remove breakline to have a real URL... :)
+    Static_Map API Key or other service...
+
+    Can wrap all in a link to a real google map, though...
+
+ #}
+<img src="http://maps.googleapis.com/maps/api/staticmap?
+            &size=600x260
+            &maptype=terrain
+            &markers=size:mid|color:0xf57b20|{{ClientLocation}}|icon:http://rbob1.blackwell.co.uk:81/assets/images/map_home_marker.png
+            &markers=size:mid|color:0x002d62|{{ShopLoacation}}|icon:http://rbob1.blackwell.co.uk:81/assets/images/map_shop_marker.png
+            &style=element:geometry.stroke|visibility:off
+            &style=feature:landscape|element:geometry.fill|color:0xfafde9
+            &style=element:labels|visibility:off
+            &style=feature:water|hue:0xdff8ff
+            &key=AIzaSyDGWCdDma4yvGb2kx1xGQ9_LKY_9enbZrI" alt="" >
+

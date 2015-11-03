@@ -48,6 +48,31 @@ a{
     }
 }
 
+.font-large{
+    font-size: $productPrice__fz;
+}
+.line{
+    display: block;
+    line-height: 130%;
+}
+.lastLine{
+    padding-bottom:10px !important;
+}
+
+.bordered tr{
+    border: $nestedContainer__border;
+}
+.bordered--top{
+    border-top: $nestedContainer__border;
+    td{
+         padding-top: $default__pad;
+    }
+}
+
+.last-table{
+    padding-left: 10px;
+}
+
 .headContent{
     color: $header__color;
     font-family: $header__ff;
@@ -125,7 +150,7 @@ a{
 .buttonContent a {
     color: $buttonContent-link__color;
     display: block;
-    padding: $buttonContent__pad $buttonContent__pad * 3;
+    padding: $buttonContent__pad * 1.5 $buttonContent__pad * 2;
     text-decoration: none;
 }
 
@@ -142,8 +167,7 @@ a{
     font-family: $textContent__ff;
     font-size: $textContent--info__fz;
     line-height: $textContent--info__lh;
+    padding-top: 1.5*$textContent--info__fz;
 }
-.line{
-    display: block;
-    line-height: 130%;
-}
+
+

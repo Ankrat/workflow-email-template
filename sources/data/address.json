@@ -1,0 +1,20 @@
+{
+    "address" :{
+        "billing" : {
+                "name": "Effie Hart",
+                "line1": "12498 Applepearbanana Avenue,",
+                "line2": "Llanfairpwllgwyngyll,",
+                "city": "Anglesey,",
+                "zip": "LL61 5YX",
+                "contry": "United Kingdom"
+            },
+        "delivery" : {
+            "name": "Effie Hart",
+            "line1": "12 Apple Street,",
+            "line2": "Llanfairpwllgwyngyll,",
+            "city": "Cherryville",
+            "zip": "AB1 2CD",
+            "contry": "United Kingdom"
+        }
+    }
+}

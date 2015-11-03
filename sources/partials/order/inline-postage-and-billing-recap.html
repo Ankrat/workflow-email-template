@@ -1,0 +1,33 @@
+<!-- CONTENT TABLE // -->
+{% set firstClass = "" %}
+{% set full = false %}
+ {% if headTitle != "Postage" %}
+    {% set firstClass = "last-table" %}
+    {% set full = true %}
+ {% endif %}
+
+<table border="0" cellpadding="0" cellspacing="0" width="50%" class="flexibleContainer" >
+    <tr>
+        <td class="bottomShim {{firstClass}}">
+            <table cellpadding="10" cellspacing="0" width={{ "100%" if full else "90%" }}>
+                <tr>
+                    <th valign="middle" align="left">
+                        {{headTitle}} option
+                    </th>
+                </tr>
+                <tr class="bordered--top">
+                    <td valign="middle" align="left">
+                        {% if headTitle == "Postage" %}
+                            <p>Standard (2-4 business days): FREE</p>
+                        {% else %}
+                            <p>
+                                <img src="visa_icon.jpg" alt="">
+                                <span>VISA debit card</span>
+                            </p>
+                        {% endif %}
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

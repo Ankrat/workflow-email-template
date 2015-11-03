@@ -1,8 +1,11 @@
-<!-- CONTENT TABLE // -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-        <td valign="top" class="">
-            postage-and-billing recap
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="nestedContainer">
+    <tr class="">
+        <td valign="midle" align="center" class="nestedContainerCell bottomShim">
+            {% set headTitle = "Postage" %}
+            {% include "./inline-postage-and-billing-recap.html"%}
+
+            {% set headTitle = "Billing" %}
+            {% include "./inline-postage-and-billing-recap.html"%}
         </td>
     </tr>
 </table>

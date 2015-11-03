@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; }
 
 p {
-  margin: 0 0 1em 0; }
+  margin: 0; }
 
 /*////// CLIENT-SPECIFIC STYLES //////*/
 .ReadMsgBody {
@@ -127,6 +127,27 @@ a {
   a:hover, a:visited {
     color: #506794; }
 
+.font-large {
+  font-size: 18px; }
+
+.line {
+  display: block;
+  line-height: 130%; }
+
+.lastLine {
+  padding-bottom: 10px !important; }
+
+.bordered tr {
+  border: 1px solid #E5E5E5; }
+
+.bordered--top {
+  border-top: 1px solid #E5E5E5; }
+  .bordered--top td {
+    padding-top: 15px; }
+
+.last-table {
+  padding-left: 10px; }
+
 .headContent {
   color: #444444;
   font-family: Helvetica;
@@ -152,9 +173,9 @@ a {
 
 .textContent--button {
   text-align: right;
-  padding-top: 5px;
+  padding-top: 7px;
   padding-bottom: 0;
-  padding-right: 5px; }
+  padding-right: 7px; }
 
 .textContent--info {
   font-size: 12px;
@@ -194,7 +215,7 @@ a {
 .buttonContent a {
   color: #FFFFFF;
   display: block;
-  padding: 5px 15px;
+  padding: 10.5px 14px;
   text-decoration: none; }
 
 .imageSocial {
@@ -208,11 +229,8 @@ a {
   color: #777777;
   font-family: Helvetica;
   font-size: 12px;
-  line-height: 100%; }
-
-.line {
-  display: block;
-  line-height: 130%; }
+  line-height: 100%;
+  padding-top: 18px; }
 
 #basketHeader {
   border-bottom: 1px solid #E5E5E5; }
@@ -253,6 +271,10 @@ a {
 
 .price--saved {
   color: #d31145; }
+
+.total-split th, .total-split td {
+  padding: 5px;
+  font-weight: normal; }
 
 /*////// MOBILE STYLES //////*/
 @media only screen and (max-width: 480px) {
@@ -301,7 +323,7 @@ a {
     padding-left: 10px !important; }
   .textContent--button, td[class="textContent--button"] {
     text-align: center !important;
-    padding-bottom: 5px; }
+    padding-bottom: 7px; }
   .flexibleContainer, table[class="flexibleContainer"] {
     float: initial !important;
     width: 100% !important; } }
