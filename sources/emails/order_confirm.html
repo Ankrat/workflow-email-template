@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+    {% set title = "Email - starter" %}
+
+{% block preheader %}
+    {% set link = "#" %}
+    {% include "../partials/generic/preheader.html" %}
+{% endblock %}
+
+{% block header %}
+
+    {% include "../partials/generic/logo.html" %}
+
+    {% include "../partials/order-confirm/doodle-confirm.html" %}
+
+    {% include "../partials/order-confirm/order-confirm-heading.html" %}
+
+{% endblock %}
+
+{% block content %}
+
+    {% include "../partials/order-confirm/order-recap.html" %}
+
+    {% include "../partials/order-confirm/payement-recap.html" %}
+
+    {% include "../partials/order-confirm/addresses-recap.html" %}
+
+    {% include "../partials/order-confirm/postage-and-billing-recap.html" %}
+
+    <img src="http://maps.googleapis.com/maps/api/staticmap?&amp;size=600x260&amp;maptype=terrain&amp;markers=size:mid|color:0xf57b20|Manchester,UK|icon:http://blackwells.co.uk/assets/images/map_home_marker.png&amp;markers=size:mid|color:0x002d62|London,UK|icon:http://blackwells.co.uk/assets/images/map_shop_marker.png&amp;style=element:geometry.stroke|visibility:off&amp;style=feature:landscape|element:geometry.fill|color:0xfafde9&amp;style=element:labels|visibility:off&amp;style=feature:water|hue:0xdff8ff&amp;key=AIzaSyDGWCdDma4yvGb2kx1xGQ9_LKY_9enbZrI" alt="">
+
+    {% for faq in faqs.confirm %}
+        {% include "../partials/generic/FAQ-info.html" %}
+    {% endfor %}
+
+    {% for faq in faqs.generic %}
+        {% include "../partials/generic/FAQ-info.html" %}
+    {% endfor %}
+
+    {% include "../partials/generic/gallery.html" %}
+
+{% endblock %}
+
+{% block footer %}
+
+    {% include "../partials/generic/contact-us.html" %}
+
+    {% include "../partials/generic/social.html" %}
+
+    {% include "../partials/generic/legal.html" %}
+
+    {% include "../partials/generic/note.html" %}
+
+{% endblock %}

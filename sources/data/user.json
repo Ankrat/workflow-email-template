@@ -1,0 +1,39 @@
+{
+    "_id":"561249fd997b6d535f0d19b9",
+    "picture":"user_avatar.jpg",
+    "age":21,
+    "name":{
+        "first":"effie",
+        "last":"Hart"
+    },
+    "email":"effie.hart@something.co.uk",
+    "phone":"+44 924 412 2799",
+    "prefered_shop":{
+        "shop_id": 0,
+        "shop_name":"",
+        "shop_lat":"22.959605",
+        "shop_long":"32.733794"
+    },
+    "prefered_addresses":[
+        {
+            "billing":{
+                "name":"Effie Hart",
+                "line1":"12498 Applepearbanana Avenue,",
+                "line2":"Llanfairpwllgwyngyll,",
+                "city":"Anglesey,",
+                "zip":"LL61 5YX",
+                "contry":"United Kingdom"
+            },
+        },
+        {
+            "delivery":{
+                "name":"Effie Hart",
+                "line1":"12 Apple Street,",
+                "line2":"Llanfairpwllgwyngyll,",
+                "city":"Cherryville",
+                "zip":"AB1 2CD",
+                "contry":"United Kingdom"
+            }
+        }
+    ]
+}

@@ -1,19 +1,38 @@
 {
-    "faqs" : [
-        {
-            "title" : "How long until my order is dispatched?",
-            "content":[
-                "If your item is in stock, it will be picked either today or the next working day. Most of our stock is picked from our Oxford bookshop, but it could come from other locations across the UK or US. Our CD's will be sent from our music shop in Cambridge.",
-                "If your item is not in stock, we order from the publisher. Most publishers dispatch the item to us within 48 hours and we will then send immediately on to you. This is also pretty typical of the classical CD market, too.",
-                "Due to the highly specialist requirements of our customers, we do source books from an extensive range of publishers and music labels. Some titles are more difficult to source and these orders can take longer to dispatch.",
-                "We will notify you by e mail as soon as your order is dispatched."
-            ]
-        },
-        {
-            "title" : "Have a problem with your order?",
-            "content":[
-                "You can either reply to this e-mail or contact our Customer Services department on help@Blackwells.co.uk. We're also available on twitter and facebook."
-            ]
-        }
-    ]
+    "faqs" : {
+        "confirm": [
+            {
+                "title" : "How long until my order is dispatched?",
+                "content":[
+                    "If your item is in stock, it will be picked either today or the next working day. Most of our stock is picked from our Oxford bookshop, but it could come from other locations across the UK or US. Our CD's will be sent from our music shop in Cambridge.",
+                    "If your item is not in stock, we order from the publisher. Most publishers dispatch the item to us within 48 hours and we will then send immediately on to you. This is also pretty typical of the classical CD market, too.",
+                    "Due to the highly specialist requirements of our customers, we do source books from an extensive range of publishers and music labels. Some titles are more difficult to source and these orders can take longer to dispatch.",
+                    "We will notify you by e mail as soon as your order is dispatched."
+                ]
+            }
+        ],
+        "dispached":[
+            {
+                "title" : "Where is the rest of my order?",
+                "content" : [
+                    "If it is quicker, we choose to dispatch items seperately so you get them sooner. If all of your items are not listed above, it means we are still awaiting the other items.",
+                    "You are able to check the status of your order at any time by logging into your account and clicking on ‘My Orders’."
+                ]
+            },
+            {
+                "title" : "Tracking your order",
+                "content" : [
+                    "All of our orders are shipped via Royal Mail unless otherwise specified, so detailed tracking is not available. Please see above for our estimated delivery times – if your order is late, then please contact Customer Services so we can resolve this for you."
+                ]
+            }
+        ],
+        "generic":[
+            {
+                "title" : "Have a problem with your order?",
+                "content":[
+                    "You can either reply to this e-mail or contact our Customer Services department on help@Blackwells.co.uk. We're also available on twitter and facebook."
+                ]
+            }
+        ]
+    }
 }

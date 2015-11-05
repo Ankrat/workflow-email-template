@@ -444,66 +444,52 @@
 	"buffers":
 	[
 		{
-			"file": "sources/partials/generic/FAQ-info.html",
-			"settings":
-			{
-				"buffer_size": 735,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sources/partials/generic/gallery.html",
-			"settings":
-			{
-				"buffer_size": 1248,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sources/partials/generic/map_url.html",
-			"settings":
-			{
-				"buffer_size": 975,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sources/emails/index.html",
-			"settings":
-			{
-				"buffer_size": 1620,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sources/partials/order/productItem.html",
-			"settings":
-			{
-				"buffer_size": 2058,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "sources/data/faq.json",
 			"settings":
 			{
-				"buffer_size": 1269,
+				"buffer_size": 2268,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sources/scss/_generic.scss",
+			"file": "sources/data/socialLink.json",
 			"settings":
 			{
-				"buffer_size": 3318,
+				"buffer_size": 301,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sources/scss/_config.scss",
+			"file": "sources/data/order.json",
 			"settings":
 			{
-				"buffer_size": 2420,
+				"buffer_size": 10991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources/data/user.json",
+			"settings":
+			{
+				"buffer_size": 3416,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "sources/data/suggest.json",
+			"settings":
+			{
+				"buffer_size": 10078,
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "sources/data/data.json",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -662,29 +648,37 @@
 	"expanded_folders":
 	[
 		"/Users/Yann/Projects/BW-bob-email",
+		"/Users/Yann/Projects/BW-bob-email/sources",
 		"/Users/Yann/Projects/BW-bob-email/sources/data",
 		"/Users/Yann/Projects/BW-bob-email/sources/emails",
 		"/Users/Yann/Projects/BW-bob-email/sources/partials",
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic",
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/order",
-		"/Users/Yann/Projects/BW-bob-email/sources/scss",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order-dispached",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order-elem",
 		"/Users/Yann/Projects/BW-bob-email/sources/templates",
 		"/Users/Yann/Projects/BW-bob-email/sources/temporary",
 		"/Users/Yann/Projects/BW-bob-email/statics"
 	],
 	"file_history":
 	[
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/map_url.html",
-		"/Users/Yann/Projects/BW-bob-email/sources/scss/_generic.scss",
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/postage-and-billing-recap.html",
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/inline-postage-and-billing-recap.html",
-		"/Users/Yann/Projects/BW-bob-email/sources/emails/index.html",
-		"/Users/Yann/Projects/BW-bob-email/sources/data/address.json",
-		"/Users/Yann/Projects/BW-bob-email/sources/scss/_config.scss",
-		"/Users/Yann/Projects/BW-bob-email/sources/data/data.json",
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/addresses-recap.html",
-		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/contact-us.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/doodle-dispached.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/order-dispached-heading.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/emails/order_dispatched.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/gallery.html",
 		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/address.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/addresses-recap.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/emails/index.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/productItem.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/data/faq.json",
+		"/Users/Yann/Projects/BW-bob-email/sources/scss/_generic.scss",
+		"/Users/Yann/Projects/BW-bob-email/sources/scss/_config.scss",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/FAQ-info.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/inline-postage-and-billing-recap.html",
+		"/Users/Yann/Projects/BW-bob-email/statics/index.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/map_url.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/order/postage-and-billing-recap.html",
+		"/Users/Yann/Projects/BW-bob-email/sources/data/address.json",
+		"/Users/Yann/Projects/BW-bob-email/sources/data/data.json",
+		"/Users/Yann/Projects/BW-bob-email/sources/partials/generic/contact-us.html",
 		"/Users/Yann/Projects/BW-bob-email/sources/templates/base.html",
 		"/Users/Yann/Projects/Blackwells.co.uk/frontend/source/data/book.json",
 		"/Users/Yann/Projects/_reflection_blackwell.co.uk/src/data/shop.json",
@@ -728,7 +722,6 @@
 		"/Users/Yann/Projects/BW-bob-email/sources/scss/_client.scss",
 		"/Users/Yann/Projects/BW-bob-email/sources/temporary/style.css",
 		"/Users/Yann/Projects/BW-bob-email/sources/emails/style.css",
-		"/Users/Yann/Projects/BW-bob-email/statics/index.html",
 		"/Users/Yann/Projects/BW-bob-email/sources/tmp/index.html",
 		"/Users/Yann/Projects/BW-bob-email/sources/scss/email.scss",
 		"/Users/Yann/Projects/BW-bob-email/sources/scss/mobile.scss",
@@ -794,14 +787,7 @@
 		"/Users/Yann/Projects/bos-web/src/main/resources/jsp/editorial/browse/medical_handbooks.jsp",
 		"/Users/Yann/Downloads/promopageandimage/promotions_index.jsp",
 		"/Users/Yann/Projects/bos-web/src/main/resources/jsp/editorial/promotions_index.jsp",
-		"/Users/Yann/Downloads/medical_handbooks.jsp",
-		"/Users/Yann/Downloads/promotions_index.jsp",
-		"/Users/Yann/Downloads/promotions_index (2).jsp",
-		"/Users/Yann/Downloads/promotions_index (1).jsp",
-		"/Users/Yann/Projects/bos-web/src/main/resources/jsp/checkout-footer.jsp",
-		"/Users/Yann/Projects/bos-web/src/main/resources/jsp/category.jsp",
-		"/Users/Yann/Projects/bos-web/src/main/resources/jsp/editorial/browse/study_skills.jsp",
-		"/Users/Yann/Projects/bos-web/src/main/resources/jsp/editorial/dictionaries.jsp"
+		"/Users/Yann/Downloads/medical_handbooks.jsp"
 	],
 	"find":
 	{
@@ -839,6 +825,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&",
+			"src=\"/images/products",
+			"src=\"images/",
 			"&",
 			"10px",
 			"address.delivery",
@@ -963,10 +952,7 @@
 			"Username",
 			"username",
 			"_toBase64",
-			"authUser",
-			"username",
-			"<li>",
-			"div"
+			"authUser"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -995,24 +981,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sources/partials/generic/FAQ-info.html",
+					"file": "sources/data/faq.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 735,
+						"buffer_size": 2268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								735,
-								735
+								2265,
+								2265
 							]
 						],
 						"settings":
@@ -1020,6 +1006,21 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1030,420 +1031,39 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sources/partials/generic/gallery.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								310
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sources/partials/generic/map_url.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								975,
-								975
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sources/emails/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1370,
-								1370
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "sources/partials/order/productItem.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1356,
-								1356
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1455,20 +1075,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "sources/data/faq.json",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "sources/data/socialLink.json",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1269,
+						"buffer_size": 301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								45
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1476,6 +1096,21 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1486,51 +1121,124 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sources/data/order.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								42
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
@@ -1541,70 +1249,47 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "sources/scss/_generic.scss",
+					"buffer": 3,
+					"file": "sources/data/user.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3318,
+						"buffer_size": 3416,
 						"regions":
 						{
-							"gutter_color_1053":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										1053,
-										1068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_960":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										960,
-										995
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_999":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										999,
-										1012
-									]
-								],
-								"scope": "gutter_color"
-							}
 						},
 						"selection":
 						[
 							[
-								1117,
-								1117
+								281,
+								281
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_name": "{",
 							"bh_regions":
 							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1615,527 +1300,224 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 303.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "sources/scss/_config.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2420,
-						"regions":
-						{
-							"gutter_color_1184":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#002d62.png",
-								"regions":
-								[
-									[
-										1184,
-										1226
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1186":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#506794.png",
-								"regions":
-								[
-									[
-										1227,
-										1269
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1227":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#506794.png",
-								"regions":
-								[
-									[
-										1227,
-										1269
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1230":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#E5E5E5.png",
-								"regions":
-								[
-									[
-										1271,
-										1313
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1271":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#E5E5E5.png",
-								"regions":
-								[
-									[
-										1271,
-										1313
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1273":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#E5E5E5.png",
-								"regions":
-								[
-									[
-										1314,
-										1366
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1314":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#E5E5E5.png",
-								"regions":
-								[
-									[
-										1314,
-										1366
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1327":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#002d62.png",
-								"regions":
-								[
-									[
-										1368,
-										1410
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1368":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#002d62.png",
-								"regions":
-								[
-									[
-										1368,
-										1410
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1370":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#506794.png",
-								"regions":
-								[
-									[
-										1411,
-										1453
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1411":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#506794.png",
-								"regions":
-								[
-									[
-										1411,
-										1453
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1453":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFFFFF.png",
-								"regions":
-								[
-									[
-										1494,
-										1536
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1494":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFFFFF.png",
-								"regions":
-								[
-									[
-										1494,
-										1536
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1823":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFFFFF.png",
-								"regions":
-								[
-									[
-										1823,
-										1865
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1948":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#E5E5E5.png",
-								"regions":
-								[
-									[
-										1948,
-										1990
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2041":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#555555.png",
-								"regions":
-								[
-									[
-										2082,
-										2124
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2082":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#555555.png",
-								"regions":
-								[
-									[
-										2082,
-										2124
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2164":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#555.png",
-								"regions":
-								[
-									[
-										2205,
-										2244
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2204":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#d31145.png",
-								"regions":
-								[
-									[
-										2245,
-										2287
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2205":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#555.png",
-								"regions":
-								[
-									[
-										2205,
-										2244
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2245":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#d31145.png",
-								"regions":
-								[
-									[
-										2245,
-										2287
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_226":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFF.png",
-								"regions":
-								[
-									[
-										226,
-										265
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_347":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFFFFF.png",
-								"regions":
-								[
-									[
-										347,
-										389
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_349":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFF.png",
-								"regions":
-								[
-									[
-										390,
-										439
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_390":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#FFF.png",
-								"regions":
-								[
-									[
-										390,
-										439
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_520":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#444444.png",
-								"regions":
-								[
-									[
-										520,
-										562
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_772":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#555555.png",
-								"regions":
-								[
-									[
-										772,
-										814
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_774":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#777777.png",
-								"regions":
-								[
-									[
-										815,
-										857
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_815":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#777777.png",
-								"regions":
-								[
-									[
-										815,
-										857
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								221,
-								221
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sources/data/suggest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "{",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sources/data/data.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -2158,18 +1540,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.693591994382,
 			1.0
 		],
 		"rows":
@@ -2307,7 +1682,7 @@
 		[
 			[
 				"",
-				"~/Projects/learning.sublime-project"
+				"~/Projects/Bob.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -2329,7 +1704,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 335.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
